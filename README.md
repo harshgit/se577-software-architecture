@@ -1,7 +1,7 @@
 # se577-software-architecture
 
 Hello
-My name is Harsh Vardhan Bolakani and I am currently part of the Drexel Masters prrogram
+My name is Harsh Vardhan Bolakani and I am currently part of the Drexel Masters program
 This is the repository used for the course SE-577 as part of the course
 
 Currently I am working as Engineer 5 with Comcast Business and am part of a central team that develops tools, solutions, and frameworks for other software teams within Comcast Business.
