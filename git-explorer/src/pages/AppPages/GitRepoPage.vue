@@ -26,7 +26,7 @@ const columns = [
 const rows = [
   {
     name: 'Repo 1',
-    contributor: "harsh",
+    contributor: 'harsh',
     stars: 6.0,
     clones: 24,
     forks: 4.0,
@@ -36,7 +36,7 @@ const rows = [
   },
   {
     name: 'Repo 2',
-    contributor: "harsh",
+    contributor: 'harsh',
     stars: 6.0,
     clones: 24,
     forks: 4.0,
