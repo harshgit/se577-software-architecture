@@ -17,4 +17,4 @@ Currently has 4 pages
 
 ### 2. ProjectStub.md - contains front end architecture describing components involved in the vue application
 
-You can access it [here]()
+You can access it [here](https://github.com/harshgit/se577-software-architecture/blob/proj-release-1/ProjectStub.md)
