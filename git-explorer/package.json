@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Front end app to explore git repositores",
   "productName": "git-explorer",
-  "author": "hbolak650 <harsh_bolakani@cable.comcast.com>",
+  "author": "harshgit <harshbolakani@gmail.com>",
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.ts,.vue ./",
