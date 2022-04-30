@@ -22,7 +22,7 @@ Here is the sample screen that shows my repositories
 
 ### 2 backend service developed in Node and Fastify -- ./web-service-node
 
-This is a node app built using fastify and it exposes the api endpoint to show the github rrepoositories for a particular user
+This is a node app built using fastify and it exposes the api endpoint to show the github repositories for a particular user
 
 ### 3 Instructions
 
