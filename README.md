@@ -1,6 +1,6 @@
 # se577-software-architecture
 
-This branch contains the work for week 3 deliverable
+This branch contains the work for week 5 deliverable
 
 ### 1. Front end application developed using vue.js -- ./git-explorer
 
@@ -20,12 +20,10 @@ Here is the sample screen that shows my repositories
 ![image](https://user-images.githubusercontent.com/3461182/166124085-29ea9323-3e0f-4d5a-92d8-3e54bfa82428.png)
 
 
-
 ### 2 backend service developed in Node and Fastify -- ./web-service-node
 
-This is a node app built using fastify and it exposes the api endpoint to show the gihub rrepoositories for a particular user
+This is a node app built using fastify and it exposes the api endpoint to show the github rrepoositories for a particular user
 
+### 3 Instructions
 
-### 3. ProjectStub.md - contains front end architecture describing components involved in the vue application
-
-You can access it [here](https://github.com/harshgit/se577-software-architecture/blob/proj-release-1/ProjectStub.md)
+Instructions can be found in release2.md
