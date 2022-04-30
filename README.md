@@ -26,4 +26,4 @@ This is a node app built using fastify and it exposes the api endpoint to show t
 
 ### 3 Instructions
 
-Instructions can be found in release2.md - [here](https://github.com/harshgit/se577-software-architecture/blob/proj-release-2/Release2.md)
+Instructions can be found in Release2.md - [here](https://github.com/harshgit/se577-software-architecture/blob/proj-release-2/Release2.md)
