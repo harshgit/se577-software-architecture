@@ -3,8 +3,9 @@
 
 Instructions
 
-1. Clone the project using git clone 
-2. Start the backend service by
+1. Clone the project using git clone git@github.com:harshgit/se577-software-architecture.git
+2. checkout proj-rerlease-2 branch using git checkout proj-release-2
+3. Start the backend service by
 
 - cd web-service-node
 - npm run watch
