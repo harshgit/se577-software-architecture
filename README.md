@@ -14,7 +14,7 @@ Currently has 4 pages
 ![image](https://user-images.githubusercontent.com/3461182/163634523-b56c0f77-5f0f-4455-b474-870f411d3cdf.png)
 
 ## Additions in Week 5 -
-Git Repos Page is now fetching live data frorm a backend servide, developed as part of week 5 assignment (details below)
+Git Repos Page is now fetching live data from a backend service, developed as part of week 5 assignment (details below)
 Here is the sample screen that shows my repositories 
 
 ![image](https://user-images.githubusercontent.com/3461182/166124085-29ea9323-3e0f-4d5a-92d8-3e54bfa82428.png)
