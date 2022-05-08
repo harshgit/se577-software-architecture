@@ -13,6 +13,9 @@ Currently has 4 pages
 
 ![image](https://user-images.githubusercontent.com/3461182/163634523-b56c0f77-5f0f-4455-b474-870f411d3cdf.png)
 
+## Additions in Week 6 -
+Backend service is now dockerized and instructions arer provided in Release3.md to create it and start the backend container
+
 ## Additions in Week 5 -
 Git Repos Page is now fetching live data from a backend service, developed as part of week 5 assignment (details below)
 Here is the sample screen that shows my repositories 
@@ -26,4 +29,4 @@ This is a node app built using fastify and it exposes the api endpoint to show t
 
 ### 3 Instructions
 
-Instructions can be found in Release2.md - [here](https://github.com/harshgit/se577-software-architecture/blob/proj-release-2/Release2.md)
+Instructions can be found in Release3.md - [here](https://github.com/harshgit/se577-software-architecture/blob/proj-release-3/Release3.md)
