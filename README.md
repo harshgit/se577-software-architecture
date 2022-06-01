@@ -1,37 +1,14 @@
 # se577-software-architecture
 
-This branch contains the work for week 6 deliverable
+This branch contains the work for week 8 deliverable where the application works directly with the github apis
 
-## Current Systems State(Architecture)
+## Additions in Week 8 -
+### 1. Gist Demo
+ Created a page for gist demo that shows the content of a github gist that I created for a helloworld program with python
+### 2. Auth Demo page available. 
+  You can use the auth and no auth button to view data that is returned by github api when using the rest call with auth token and not
 
-![image](https://user-images.githubusercontent.com/3461182/167307621-50833008-61a1-43e6-befa-e6e86eb71a73.png)
-
-## Additions in Week 6 -
-Backend service is now dockerized and instructions are provided in Release3.md to create it and start the backend container
-
-### 1. Front end application developed using vue.js -- ./git-explorer
-
-The app contains a placeholder page for displaying git repositories and it currently contains hard coded data in the table.
-Currently has 4 pages
-* Home
-* About Me
-* Git Repos (with mock data)
-* Repo Details (under development)
-
-![image](https://user-images.githubusercontent.com/3461182/163634523-b56c0f77-5f0f-4455-b474-870f411d3cdf.png)
-
-
-## Additions in Week 5 -
-Git Repos Page is now fetching live data from a backend service, developed as part of week 5 assignment (details below)
-Here is the sample screen that shows my repositories 
-
-![image](https://user-images.githubusercontent.com/3461182/166124085-29ea9323-3e0f-4d5a-92d8-3e54bfa82428.png)
-
-
-### 2 backend service developed in Node and Fastify -- ./web-service-node
-
-This is a node app built using fastify and it exposes the api endpoint to show the github repositories for a particular user
 
 ### 3 Instructions
 
-Instructions can be found in Release3.md - [here](https://github.com/harshgit/se577-software-architecture/blob/proj-release-3/Release3.md)
+Instructions can be found in Release4.md - [here](https://github.com/harshgit/se577-software-architecture/blob/proj-release-4/Release4.md)
