@@ -7,7 +7,8 @@ const routes: RouteRecordRaw[] = [
     children: [{ path: '', component: () => import('src/pages/AppPages/Home.vue') },
     { path: '/gitrepos', component: () => import('pages/AppPages/GitRepoPage.vue') },
     { path: '/about', component: () => import('pages/AppPages/About.vue') },
-    { path: '/repodetails', component: () => import('pages/AppPages/GitRepoDetailsPage.vue') }
+    { path: '/repodetails', component: () => import('pages/AppPages/GitRepoDetailsPage.vue') },
+    { path: '/gist', component: () => import('pages/AppPages/GitGistPage.vue') }
     ],
   },
 

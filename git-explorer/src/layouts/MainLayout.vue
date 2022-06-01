@@ -29,6 +29,7 @@
           <router-link to="/about">About Me</router-link> |
           <router-link to="/gitrepos">Git Repos</router-link> |
           <router-link to="/repodetails">Repo Details</router-link> |
+          <router-link to="/gist">Gist Demo</router-link> |
           <!-- <router-link to="/layout">Layout</router-link> |
           <router-link to="/dynamic">Dynamic</router-link> |
           <router-link to="/props">Props</router-link> |
