@@ -2,6 +2,9 @@
 
 This branch contains the work for week 8 deliverable where the application works directly with the github apis
 
+<img width="611" alt="image" src="https://user-images.githubusercontent.com/3461182/171519602-d54869b5-ab0f-42ba-ac10-aed081fc708f.png">
+
+
 ## Additions in Week 8 -
 ### 1. Gist Demo
  Created a page for gist demo that shows the content of a github gist that I created for a helloworld program with python
