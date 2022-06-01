@@ -1,6 +1,13 @@
 # se577-software-architecture
 
-This branch contains the work for week 5 deliverable
+This branch contains the work for week 6 deliverable
+
+## Current Systems State(Architecture)
+
+![image](https://user-images.githubusercontent.com/3461182/167307621-50833008-61a1-43e6-befa-e6e86eb71a73.png)
+
+## Additions in Week 6 -
+Backend service is now dockerized and instructions are provided in Release3.md to create it and start the backend container
 
 ### 1. Front end application developed using vue.js -- ./git-explorer
 
@@ -12,6 +19,7 @@ Currently has 4 pages
 * Repo Details (under development)
 
 ![image](https://user-images.githubusercontent.com/3461182/163634523-b56c0f77-5f0f-4455-b474-870f411d3cdf.png)
+
 
 ## Additions in Week 5 -
 Git Repos Page is now fetching live data from a backend service, developed as part of week 5 assignment (details below)
@@ -26,4 +34,4 @@ This is a node app built using fastify and it exposes the api endpoint to show t
 
 ### 3 Instructions
 
-Instructions can be found in Release2.md - [here](https://github.com/harshgit/se577-software-architecture/blob/proj-release-2/Release2.md)
+Instructions can be found in Release3.md - [here](https://github.com/harshgit/se577-software-architecture/blob/proj-release-3/Release3.md)
