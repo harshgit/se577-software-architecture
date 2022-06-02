@@ -1,16 +1,18 @@
 
 <template>
   <div class="q-ma-md">
-    <q-scroll-area dark class="bg-dark text-white rounded-borders" style="height: 200px; max-width: 800px;">
+    <q-scroll-area dark class="bg-dark text-white rounded-borders" style="height: 200px; max-width: 1200px;">
       <div v-for="n in 1" :key="n" class="q-py-sm q-px-md">
+
         {{ content }}
+
       </div>
     </q-scroll-area>
   </div>
 </template>
 
 <script>
-import { api } from 'boot/axios'
+import { axios } from 'boot/axios'
 import { onMounted, ref } from 'vue'
 
 export default {
@@ -19,9 +21,13 @@ export default {
     const data = ref(null)
     const content = ref(null)
 
+    const userId = 'harshgit'
+    const userToken = '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'
+
 
     function loadData() {
-      api.get('/github/gists/a69869b31927ebd5c6a94a0a416fa31c')
+      axios.get('https://api.github.com/gists/a69869b31927ebd5c6a94a0a416fa31c', { headers: { 'authorization': 'Basic ' + btoa(userId + ':' + userToken) } })
+        //api.get('/github/gists/a69869b31927ebd5c6a94a0a416fa31c')
         .then((response) => {
           data.value = response.data
           const files = data.value.files
