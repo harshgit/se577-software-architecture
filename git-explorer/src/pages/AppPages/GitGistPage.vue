@@ -22,7 +22,7 @@ export default {
     const content = ref(null)
 
     const userId = 'harshgit'
-    const userToken = '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'
+    const userToken = ''
 
 
     function loadData() {
