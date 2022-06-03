@@ -1,6 +1,6 @@
 
 
-## Current Architecture
+## Architecture
 
 ![image](https://user-images.githubusercontent.com/3461182/167307621-50833008-61a1-43e6-befa-e6e86eb71a73.png)
 
@@ -9,7 +9,7 @@
 Instructions
 
 1. Clone the project using git clone git@github.com:harshgit/se577-software-architecture.git
-2. checkout proj-release-3 branch using git checkout proj-release-3
+2. checkout proj-final branch using git checkout proj-final
 3. Start the backend service by
    cd web-service-node
 
@@ -31,6 +31,7 @@ Instructions
    
 5. navigate to http://localhost:8080/#/
 6. Then click on GitRepos page to view repositories being shown from the backend call
+7. Select any rrepository and click Repo Details button to view additional details about the repositoryr like (contrributorrs and latest commit message)
 
 
 
