@@ -31,7 +31,7 @@ Instructions
    
 5. navigate to http://localhost:8080/#/
 6. Then click on GitRepos page to view repositories being shown from the backend call
-7. Select any rrepository and click Repo Details button to view additional details about the repositoryr like (contrributorrs and latest commit message)
+7. Select any repository and click Repo Details button to view additional details about the repositoryr like (contrributorrs and latest commit message)
 
 
 
