@@ -1,7 +1,34 @@
 <template>
+  <q-btn label="Repo Details" color="primary" @click="loadAdditionalData(selected[0]['name']); fixed = true" />
   <div class="q-pa-md">
-    <q-table title="Git Repositories" :rows="rows" :columns="columns" row-key="name" />
+    <q-table title="Git Repositories" :rows="rows" :columns="columns" row-key="name" selection="single"
+      v-model:selected="selected" />
   </div>
+
+
+  <q-dialog v-model="fixed">
+    <q-card>
+      <q-card-section>
+        <div class="text-h6">Repository Details</div>
+      </q-card-section>
+
+      <q-separator />
+
+      <q-card-section style="max-height: 50vh" class="scroll">
+        <p> Repo Name: {{ selected[0]['name'] }} </p>
+        <p>Contributors: {{ contributors }} </p>
+        <p>Lates Commit: {{ lastCommit }}</p>
+
+
+      </q-card-section>
+
+      <q-separator />
+
+      <q-card-actions align="right">
+        <q-btn flat label="Close" color="primary" v-close-popup />
+      </q-card-actions>
+    </q-card>
+  </q-dialog>
 </template>
 
 <script>
@@ -56,6 +83,10 @@ export default {
   setup() {
 
     const data = ref(null)
+    const fixed = ref(false)
+    const lastCommit = ref('')
+    const totalCommits = ref(0)
+    const contributors = ref([])
 
 
     function loadData() {
@@ -64,6 +95,42 @@ export default {
           data.value = response.data
           const repos = response.data
           populateRows(repos)
+        })
+        .catch((err) => {
+          console.error('error in getting data from backend')
+          console.error(err.message)
+
+        })
+    }
+
+    function loadAdditionalData(repoName) {
+      console.log(repoName)
+      loadContributionsData(repoName)
+      loadCommitData(repoName)
+    }
+
+    function loadContributionsData(repoName) {
+      contributors.value = []
+      api.get('/github/repos/harshgit/' + repoName + '/contributors')
+        .then((response) => {
+          const responseData = response.data
+          responseData.forEach((user) => {
+            contributors.value.push(user.login)
+          })
+        })
+        .catch((err) => {
+          console.error('error in getting data from backend')
+          console.error(err.message)
+
+        })
+    }
+
+    function loadCommitData(repoName) {
+      api.get('/github/repos/harshgit/' + repoName + '/commits')
+        .then((response) => {
+          const responseData = response.data
+          totalCommits.value = responseData.size
+          lastCommit.value = responseData[0].commit.message
         })
         .catch((err) => {
           console.error('error in getting data from backend')
@@ -92,7 +159,14 @@ export default {
       columns,
       rows,
       data,
-      loadData
+      loadData,
+      fixed,
+      selected: ref([]),
+      totalCommits,
+      lastCommit,
+      contributors,
+      loadAdditionalData
+
     }
   }
 }
