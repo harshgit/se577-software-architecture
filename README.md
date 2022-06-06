@@ -1,6 +1,6 @@
 # se577-software-architecture
 
-This branch contains the work for week 6 deliverable
+This branch contains the work for the final project deliverables
 
 ## Architecture Model
 
@@ -19,17 +19,15 @@ This branch contains the work for week 6 deliverable
   4.3 All apis work using the backend node service and no direct api calls are made to github apis
 Backend service is now dockerized and instructions are provided in Release3.md to create it and start the backend container
 
-### 1. Front end application developed using vue.js -- ./git-explorer
+## Appliction Screenshot
 
-The app contains a placeholder page for displaying git repositories and it currently contains hard coded data in the table.
-Currently has 4 pages
+The app contains 4 pages
 * Home
 * About Me
-* Git Repos (with mock data)
-* Repo Details (under development)
+* Git Repos (with new features for final project)
+* Git Gist Demo
 
-![image](https://user-images.githubusercontent.com/3461182/163634523-b56c0f77-5f0f-4455-b474-870f411d3cdf.png)
-
+<img width="695" alt="image" src="https://user-images.githubusercontent.com/3461182/172252049-d1ff7e39-f465-45a1-a02c-7e068922687c.png">
 
 
 ### 3 Instructions
