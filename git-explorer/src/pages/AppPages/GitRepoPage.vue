@@ -15,9 +15,9 @@
       <q-separator />
 
       <q-card-section style="max-height: 50vh" class="scroll">
-        <p> Repo Name: {{ selected[0]['name'] }} </p>
+        <p>Repo Name: {{ selected[0]['name'] }} </p>
         <p>Contributors: {{ contributors }} </p>
-        <p>Lates Commit: {{ lastCommit }}</p>
+        <p>Latest Commit: {{ lastCommit }}</p>
 
 
       </q-card-section>
