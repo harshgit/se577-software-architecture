@@ -12,7 +12,7 @@ This branch contains the work for the final project deliverables
 3. Backend service is dockerized
 4. Additional featurers added in the final project
 
-    4.1 All rerpositories are lised in a dybalix table/grid
+    4.1 All rerpositories are lised in a dynamic table/grid
   
     4.2 User can select a repository and click "Repo Details" button to view additional details like (contributors, latest commit message etc)
   
