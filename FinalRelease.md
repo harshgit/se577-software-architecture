@@ -14,8 +14,8 @@ Herre is the Architecture model for the application
 | --------- | ----------- |
 | User/Browser   |  The User Starting launching the application from a browser |
 | Frontend/Vue | The Web application written using the single page architecture design and implemented using vue/quasar |
-| Backend | This is a nodoe application developed using fastify/node that wraps the functionality of github apis and serves as a proxy to the 3rd party system (github)  |
-| GIT Backend | This is the rest api endpoints exposed by github to interact with github services |
+| Backend (Dockerized) | This is a node application developed using fastify/node that wraps the functionality of github apis and serves as a proxy to the 3rd party system (github)  |
+| Github API | This is the rest api endpoints exposed by github to interact with github services |
 
 ## Architecture Decisions
 
