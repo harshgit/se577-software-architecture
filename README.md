@@ -12,12 +12,12 @@ This branch contains the work for the final project deliverables
 3. Backend service is dockerized
 4. Additional featurers added in the final project
 
-  4.1 All rerpositories are lised in a dybalix table/grid
+    4.1 All rerpositories are lised in a dybalix table/grid
   
-  4.2 User can select a repository and click "Repo Details" button to view additional details like (contributors, latest commit message etc)
+    4.2 User can select a repository and click "Repo Details" button to view additional details like (contributors, latest commit message etc)
   
-  4.3 All apis work using the backend node service and no direct api calls are made to github apis
-Backend service is now dockerized and instructions are provided in Release3.md to create it and start the backend container
+    4.3 All apis work using the backend node service and no direct api calls are made to github apis
+Backend service is now dockerized and instructions are provided in FinalRelease.md to create it and start the backend container
 
 ## Appliction Screenshot
 
