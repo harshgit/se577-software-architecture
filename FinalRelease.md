@@ -2,9 +2,29 @@
 
 ## Architecture
 
+### Model
+
+Herre is the Architecture model for the application
+
 ![image](https://user-images.githubusercontent.com/3461182/167307621-50833008-61a1-43e6-befa-e6e86eb71a73.png)
 
-## Instructions
+## Architecture Components
+
+| Component | Description |
+| --------- | ----------- |
+| User/Browser   |  The User Starting launching the application from a browser |
+| Frontend/Vue | The Web application written using the single page architecture design and implemented using vue/quasar |
+| Backend | This is a nodoe application developed using fastify/node that wraps the functionality of github apis and serves as a proxy to the 3rd party system (github)  |
+| GIT Backend | This is the rest api endpoints exposed by github to interact with github services |
+
+## Architecture Decisions
+
+1. Use a Single Page application that compiles with the modern web architecture
+2. Use A backend Web API that wraps the functionality of a thrid party service provider (GITHUB API)
+3. Keep the web and api layer separate so independent decisions can be made on scaling, maintenance and upgrades
+4. Containerize the backend app so deployment can be orchestrated and controlled
+
+### Instructions
 
 Instructions
 
@@ -18,7 +38,7 @@ Instructions
       Docker build . -t hvb36/node-web-app
 
 
-   3. Start the docker container
+   2. Start the docker container
 
       Docker run -p 4080:4080 -d hvb36/node-web-app
 
@@ -31,7 +51,7 @@ Instructions
    
 5. navigate to http://localhost:8080/#/
 6. Then click on GitRepos page to view repositories being shown from the backend call
-7. Select any repository and click Repo Details button to view additional details about the repositoryr like (contrributorrs and latest commit message)
+7. Select any repository and click Repo Details button to view additional details about the repository like (contributors and latest commit message)
 
 
 
