@@ -26,7 +26,7 @@ const columns = [
   //{ name: 'usage', label: 'usage', field: 'usage', sortable: true, sort: (a, b) => parseInt(a, 10) - parseInt(b, 10) }
 ]
 
-const rows = []
+const rows = ref([])
 // const rows = [
 //   {
 //     name: 'Repo 1',
@@ -82,7 +82,7 @@ export default {
         obj['loc'] = repo.size;
         obj['contributor'] = 'harsh';
 
-        rows.push(obj);
+        rows.value.push(obj);
       })
 
     }
